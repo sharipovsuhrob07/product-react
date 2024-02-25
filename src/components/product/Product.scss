@@ -1,0 +1,51 @@
+.product__title {
+  color: rgb(34, 52, 61);
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 66px;
+}
+.product {
+  background-size: cover;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/product_bg.png");
+}
+
+.product__card {
+  width: 240px;
+}
+
+.product__card_title {
+  color: rgb(34, 52, 61);
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.product__card_text {
+  color: rgb(34, 52, 61);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.product__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__product {
+  margin-bottom: 40px;
+}

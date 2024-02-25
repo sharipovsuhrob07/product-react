@@ -1,0 +1,51 @@
+// header
+
+.header__navigation_item {
+  color: rgb(34, 52, 61);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.header__navigation_list {
+  display: flex;
+  gap: 30px;
+}
+
+.main__header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.header__navigation_item_sign_in {
+  color: rgb(23, 58, 86);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgb(188, 208, 229);
+  border-radius: 4px;
+  padding: 10px 25px;
+}
+
+.header__navigation_item_sign_up {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(2, 137, 122);
+  padding: 10px 25px;
+}
